@@ -7,7 +7,7 @@ namespace ACT.DFAssist
 	static class Settings
 	{
 		// 태그
-		public static string TagName = "202102171";  // 202102031 -> 202102161 -> 202102162 -> 202102171
+		public static string TagName = "202104151";  // 202102031 -> 202102161 -> 202102162 -> 202102171
 
 		// Machina.FFXIV
 		public static bool UseMachina = true;
@@ -48,7 +48,7 @@ namespace ACT.DFAssist
 		// GITHUB에서 버전 태그르 가져온다 -> 업데이트용
 		internal static string GetTagNameForUpdate()
 		{
-			string url = "https://api.github.com/repos/purutu/ACT.DFAssist/releases/latest";
+			string url = "https://api.github.com/repos/khangp0000/ACT.DFAssist/releases/latest";
 			var rq = Toolkits.HttpHelper.Request(url);
 
 			if (rq != null)

@@ -215,7 +215,7 @@ namespace ACT.DFAssist
 							Mesg.GetText("i-visit-updated"),
 							Mesg.GetText("app-name"), MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 						if (res == DialogResult.Yes)
-							Process.Start("https://github.com/purutu/ACT.DFAssist/releases/latest");
+							Process.Start("https://api.github.com/repos/khangp0000/ACT.DFAssist/releases/latest");
 						else
 						{
 							txtUpdateSkip.Text = tagname;
