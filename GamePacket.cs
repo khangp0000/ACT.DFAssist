@@ -21,17 +21,17 @@
 			/*   0 */ 
 			new GamePacket
 			{
-				Version = "0550",
-				OpFate = 960,
+				Version = "0550HF",
+				OpFate = 0x023e,
 				FateIndex = 53,
-				OpDuty = 181,
+				OpDuty = 509,
 				DutyRoulette = 8,
 				DutyInstance = 12,
-				OpMatch = 372,
+				OpMatch = 399,
 				MatchRoulette = 2,
 				MatchInstance = 20,
-				OpInstance = 724,
-				OpBozjaCe = 743,
+				OpInstance = 316,
+				OpBozjaCe = 0,
 			},
 			/*   1 */ 
 			new GamePacket

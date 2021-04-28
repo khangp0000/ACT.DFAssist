@@ -156,5 +156,10 @@ namespace ACT.DFAssist
 		{
 			Write(Category.CE, Color.Black, GetText(key, args));
 		}
+
+		public static void LD(string text, params object[] args)
+		{
+			Write(Category.Debug, Color.Gray, text, args);
+		}
 	}
 }

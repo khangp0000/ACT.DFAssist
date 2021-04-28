@@ -1101,7 +1101,12 @@ namespace ACT.DFAssist
 		private void PacketHandler(string pid, byte[] message)
 		{
 			var opcode = BitConverter.ToUInt16(message, 18);
-
+			
+			//var fcode1 = BitConverter.ToUInt16(message, 36);
+			//if (fcode1 == 583 && message[32] == GamePacket.Current.FateIndex)
+   //         {
+			//	Mesg.LD("Guessing Opfate: " + opcode);
+   //         }
 			if (opcode != GamePacket.Current.OpFate &&
 				opcode != GamePacket.Current.OpDuty &&
 				opcode != GamePacket.Current.OpMatch &&
