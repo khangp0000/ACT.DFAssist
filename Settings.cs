@@ -7,7 +7,7 @@ namespace ACT.DFAssist
 	static class Settings
 	{
 		// 태그
-		public static string TagName = "202104271";  
+		public static string TagName = "202106100";  
 
 		// Machina.FFXIV
 		public static bool UseMachina = true;

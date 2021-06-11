@@ -22,15 +22,15 @@
 			new GamePacket
 			{
 				Version = "0550HF",
-				OpFate = 0x023e,
+				OpFate = 0x35a,
 				FateIndex = 53,
-				OpDuty = 509,
+				OpDuty = 271,
 				DutyRoulette = 8,
 				DutyInstance = 12,
-				OpMatch = 399,
+				OpMatch = 220,
 				MatchRoulette = 2,
 				MatchInstance = 20,
-				OpInstance = 316,
+				OpInstance = 923,
 				OpBozjaCe = 0,
 			},
 			/*   1 */ 
