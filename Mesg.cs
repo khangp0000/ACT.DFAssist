@@ -161,5 +161,10 @@ namespace ACT.DFAssist
 		{
 			Write(Category.Debug, Color.Gray, text, args);
 		}
+
+		public static void W(string text)
+		{
+			Write(Category.Error, Color.Red, text);
+		}
 	}
 }

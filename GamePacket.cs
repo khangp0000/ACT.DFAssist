@@ -18,20 +18,20 @@
 		//
 		public static readonly GamePacket[] Packets = new GamePacket[]
 		{
-			/*   0 */ 
+			/*   0 */  
 			new GamePacket
 			{
-				Version = "0550HF",
-				OpFate = 0x35a,
+				Version = "0570",
+				OpFate = 854,
 				FateIndex = 53,
-				OpDuty = 271,
+				OpDuty = 186,
 				DutyRoulette = 8,
 				DutyInstance = 12,
-				OpMatch = 220,
+				OpMatch = 370,
 				MatchRoulette = 2,
 				MatchInstance = 20,
-				OpInstance = 923,
-				OpBozjaCe = 0,
+				OpInstance = 710,
+				OpBozjaCe = 974,
 			},
 			/*   1 */ 
 			new GamePacket

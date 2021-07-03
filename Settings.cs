@@ -7,7 +7,7 @@ namespace ACT.DFAssist
 	static class Settings
 	{
 		// 태그
-		public static string TagName = "202106100";  
+		public static string TagName = "202106230";  
 
 		// Machina.FFXIV
 		public static bool UseMachina = true;
@@ -58,10 +58,12 @@ namespace ACT.DFAssist
 					var js = JsonConvert.DeserializeObject<dynamic>(rq);
 					var tagname = js.tag_name.ToObject<string>();   // "tag_name": "20200113"
 
+					Mesg.W("Receive tag name: " + tagname);
 					return tagname;
 				}
-				catch
+				catch (System.Exception e)
 				{
+					Mesg.W(e.Message);
 				}
 			}
 
